@@ -9,7 +9,7 @@ function Rigester() {
     const res = await fetch("https://dashboard-fflc.onrender.com/auth", {
       method: "POST",
       headers: {
-        "content-type": "application/json",
+        "content-type": "application/json",  
       },
       body: JSON.stringify({ email, password }),
     });
