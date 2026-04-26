@@ -8,7 +8,7 @@ function Loginpage() {
   const [password, setpassword] = useState("");
 
   const called = async () => {
-    const res=await fetch("http://localhost:5000/login", {
+    const res=await fetch("https://dashboard-fflc.onrender.com/login", {
       method: "POST",
       headers: {
         "content-type": "application/json",

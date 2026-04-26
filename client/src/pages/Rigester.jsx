@@ -6,7 +6,7 @@ function Rigester() {
   const [email, setemail] = useState("");
   const [password, setpassword] = useState("");
   const signup = async () => {
-    const res = await fetch("http://localhost:5000/auth", {
+    const res = await fetch("https://dashboard-fflc.onrender.com/auth", {
       method: "POST",
       headers: {
         "content-type": "application/json",
